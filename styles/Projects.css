@@ -1,0 +1,55 @@
+.projects {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-item {
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 1rem;
+}
+
+.project-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #00d4ff;
+}
+
+.project-content p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.project-content strong {
+  color: #00d4ff;
+}
+
+
+  
