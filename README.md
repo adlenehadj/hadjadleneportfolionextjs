@@ -20,9 +20,17 @@ Ce projet est un portfolio personnel développé avec Next.js. Il inclut des pag
 
 1. Clonez le dépôt :
    ```bash
+
+
    git clone https://github.com/<your-username>/nextjs-portfolio.git
 ## Auteur
 - **Nom** : Adlene Hadj Naceur
 - **Email** : adlenehadj2002@gmail.com
  - **LinkedIn** : https://linkedin.com/in/adlene-hadj-naceur
-- **GitHub** : https://github.com/adlenehadj 
+- **GitHub** : https://github.com/adlenehadj
+
+## Captures d'écrans 
+- **Page d'acceuil** : ![image](https://github.com/user-attachments/assets/205918fe-f2ad-4e58-bd8f-4818044dd492)
+- **Page Projects** : ![image](https://github.com/user-attachments/assets/1718026a-6c43-462f-9b20-5ecbe19597cd)
+
+
