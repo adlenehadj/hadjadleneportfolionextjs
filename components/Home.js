@@ -1,12 +1,10 @@
 import React from 'react';
 
-import profileImage from '../public/photo de profil.jpg';
-
 const Home = () => {
   return (
     <div className="home">
       <div className="hero">
-        <img src={profileImage} alt="Adlene Hadj Naceur" className="profile-image" />
+        <img src="/photo de profil.jpg" alt="Adlene Hadj Naceur" className="profile-image" />
         <h1>Bienvenue sur mon portfolio</h1>
         <p>
           Je suis Adlene Hadj Naceur, étudiant en programmation informatique au Collège La Cité, bientôt diplômé. Passionné par le développement web et les technologies émergentes, j'ai acquis des compétences solides dans plusieurs domaines clés tels que le développement serveur web, la programmation web, et la cybersécurité.
@@ -23,4 +21,5 @@ const Home = () => {
 };
 
 export default Home;
+
 

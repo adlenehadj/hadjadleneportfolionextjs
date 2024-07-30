@@ -1,22 +1,19 @@
 import React from 'react';
 
-import taskManagementImage from '../public/task_management.jpg';
-import libraryManagementImage from '../public/library_management.jpeg';
-
 const projects = [
   {
     id: 1,
     title: 'Application de Gestion de Tâches',
     description: 'Une application web permettant aux utilisateurs de créer, gérer et suivre leurs tâches quotidiennes.',
     technologies: 'React, Node.js, Express, MongoDB',
-    image: taskManagementImage,
+    image: '/task_management.jpg',
   },
   {
     id: 2,
     title: 'Système de Gestion Bibliothèque',
     description: 'Un système de gestion pour les bibliothèques permettant de gérer les livres, les emprunts et les utilisateurs.',
     technologies: 'Java, Spring Boot, MySQL',
-    image: libraryManagementImage,
+    image: '/library_management.jpeg',
   },
   // Ajoutez plus de projets ici
 ];
@@ -42,4 +39,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
