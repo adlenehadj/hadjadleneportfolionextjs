@@ -1,6 +1,8 @@
+// components/Testimonials.js
 import React, { useContext } from 'react';
-import { Link } from 'next/link';
-import { TestimonialsContext } from '../components/TestimonialsContext';
+import { TestimonialsContext } from './TestimonialsContext';
+import Link from 'next/link';
+
 
 
 const Testimonials = () => {
@@ -9,14 +11,16 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <h1>Témoignages</h1>
-      <ul className="testimonials-list">
+      <ul>
         {testimonials.map((testimonial) => (
-          <li key={testimonial.id} className="testimonial-item">
+          <li key={testimonial.id}>
             <p><strong>{testimonial.name}:</strong> {testimonial.message}</p>
           </li>
         ))}
       </ul>
-      <Link to="/add-testimonial" className="add-testimonial-button">Ajouter un témoignage</Link>
+      <Link href="/add-testimonial" legacyBehavior>
+        <a className="add-testimonial-button">Ajouter un témoignage</a>
+      </Link>
     </div>
   );
 };
